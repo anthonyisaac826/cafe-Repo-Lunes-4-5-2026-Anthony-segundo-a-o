@@ -3,9 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cafe esencia</title>
+
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cafe esencia</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Inicio de la seccion de Bienvenida -->
+      <main>
+        <section class="py-5 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Una cafeteria local con sabor autentico</h2>
+                        <p class="lead text-secondary">Descubre el sabor autentico de nuestra cafeteria loca, donde
+                            cada taza es una experiencia unica.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, totam ipsa beatae cum facilis dolor dolore sed provident sunt doloremque autem non corrupti officiis nemo consequatur blanditiis nisi neque culpa.</p>
+                            
+                            <div class="d-flex flex-wrap gap-2">
+                                <a href="#" class="btn btn-danger">explorar menu</a>
+                                <a href="#" class="btn btn-secondary">reserva con nosotros</a>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/Cafeteria 1.jpg" alt="Cafeteria" class="shadow rounded-4 img-flouid" style="max-width: 600px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <!-- Tarjetas -->
+       <section clas="container py-5 bg-light">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm 12">
+                <div class="card">
+                    <img src="img/cafe 1.jpg" alt="" class="card-img-top">
+                    <h4 clas="card-tittle">cafe de altura</h4>
+                    <p class="card-text">disfruta de nuestro cafe de altura, cultivado en las mejores regiones cafeteras del mundo.</p>
+                    <a href="#" class="btn btn-warnig">ordenar en linea</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm 12">
+                <div class="card">
+                    <img src="img/cafe 2.avif" alt="" class="card-img-top">
+                    <h4 clas="card-tittle">cafe de altura</h4>
+                    <p class="card-text">disfruta de nuestro cafe de altura, cultivado en las mejores regiones cafeteras del mundo.</p>
+                    <a href="#" class="btn btn-warnig">ordenar en linea</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm 12">
+                    <div class="card">
+                        <img src="img/cafe 3.webp" alt="" class="card-img-top">
+                        <h4 clas="card-tittle">cafe de altura</h4>
+                        <p class="card-text">disfruta de nuestro cafe de altura, cultivado en las mejores regiones cafeteras del mundo.</p>
+                        <a href="#" class="btn btn-warnig">ordenar en linea</a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm 12">
+                        <div class="card">
+                            <img src="img/cafe 1.jpg" alt="" class="card-img-top">
+                            <h4 clas="card-tittle">cafe de altura</h4>
+                            <p class="card-text">disfruta de nuestro cafe de altura, cultivado en las mejores regiones cafeteras del mundo.</p>
+                            <a href="#" class="btn btn-warnig">ordenar en linea</a>
+                        </div>
+        </div>
+       </section>
+       <!--footer-->
+       <footer class="navbar navbar-dark bg-dark py-3">
+        <div class="container d-flex justify-content-around flex-wrap aling-items-center">
+            <p class="text-light">cafe los arboles</p>
+            <p class="text-light">&copy; 2026 todos los derechos reservados</p>
+            <div class="d-flex gap-3">
+                <a href="#" class="btn btn-success">terminos y condiciones</a>
+                <a href="#" class="btn btn-success">contacto</a>
+            </div>
+        </div>
+       </footer>
+
+
+    <!-- Boostrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
